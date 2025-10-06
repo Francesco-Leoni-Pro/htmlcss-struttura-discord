@@ -18,7 +18,7 @@ border: 1px solid black}
 }
 
 /* UTILITY */
-.container {   
+.container { 
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
@@ -39,3 +39,21 @@ border: 1px solid black}
     gap: 20px;
 }
 
+main .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CLASSES COLOR */
+.bg-blue {
+    background-color: blue;
+}
+.bg-fuchsia {
+    background-color: fuchsia;
+}
+.bg-lightblue {
+    background-color: lightblue;
+}
+.bg-pink {
+    background-color: pink;
+}
