@@ -7,7 +7,8 @@ box-sizing: border-box;
 /* RESET */
 
 /* DEBUG
-body {background-color: aqua;}
+body {background-color: aqua;
+border: 1px solid black}
 /* DEBUG */
 
 .header {
@@ -29,4 +30,11 @@ body {background-color: aqua;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: orange;
 }
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
