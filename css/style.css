@@ -106,3 +106,29 @@ main .container {
   flex-grow: 1;
   background: lightblue;}
 
+.two-columns {
+    display: flex;
+}
+
+.col-60 {
+    width: 60%;
+    background: lightgreen;
+}
+.col-40 {
+    width: 40%;
+    background: lightcoral;
+}
+
+.five-columns {
+    display: flex;
+}
+
+.five-columns .col-30 {
+  flex-basis: 30%;
+  background-color: yellow;}
+
+  .five-columns .col:not(.col-30) {
+  flex: 1;
+background-color: aqua;}
+
+
