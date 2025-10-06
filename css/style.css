@@ -6,8 +6,27 @@ box-sizing: border-box;
 }
 /* RESET */
 
+/* DEBUG
+body {background-color: aqua;}
 /* DEBUG */
-body {
-    background-color: aqua;
+
+.header {
+    background-color: lightblue;
+    padding: 10px 0;
+    text-align: center;
 }
-/* DEBUG */
+
+/* UTILITY */
+.container {   
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+/* UTILITY */
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
