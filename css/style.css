@@ -18,12 +18,21 @@ border: 1px solid black}
 }
 
 /* UTILITY */
-.container { 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container-main { 
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px dotted black;
+    background: orange;
 }
 /* UTILITY */
 
@@ -51,7 +60,7 @@ main .container {
     padding: 40px;
 }
 .bg-fuchsia {
-    background-color: fuchsia
+    background-color: fuchsia;
 }
 .bg-lightblue {
     background-color: lightblue;
@@ -61,6 +70,11 @@ main .container {
 }
 .bg-lightgray {
     background-color: lightgrey;
+    width: 100%;
+    padding: 40px;
+}
+.bg-white {
+    background-color: white;
     width: 100%;
     padding: 40px;
 }
